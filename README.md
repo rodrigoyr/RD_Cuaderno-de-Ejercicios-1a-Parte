@@ -1,7 +1,7 @@
 # RD_Cuaderno-de-Ejercicios-1a-Parte
 **1. Para un sistema de comunicaciones con 17 niveles de señal, que funciona en banda base, calcular el máximo ancho de banda si el ruido es despreciable y la tasa de transmisión es de 10 Mbits/s. ¿Qué tipo de medio guiado se podría utilizar para el sistema?**
-<br>Para calcular el ancho de banda máximo aplicamos la formula de Nyquist:<br>
-<br>B=R/2log2M;<br>
+<br>Para calcular el ancho de banda máximo aplicamos la formula de Nyquist:
+B=R/2log2M;<br>
 <br>Donde: R=10Mbits (tasa de transmision) y M=17 (niveles de señal)<br>
 <br>Sustituyendo: B=10x10^6/2x4,09= **1,22MHz**
 <br>Como el ancho de banda es bajo se pueden utilizar varios tipos de medios guiados: **par trenzado, cable coaxial o fibra óptica**
