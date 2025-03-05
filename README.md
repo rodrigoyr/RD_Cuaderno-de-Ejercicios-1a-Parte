@@ -14,11 +14,17 @@
 <br>2. Sustituimos los valores en la ecuación de Shannon:<br>
 <br>C= 10^12xlog2(1+31,62)= **5,04 Tbps**<br>
 <br>El conversor optoeléctrico tiene una velocidad de 100 Gbaudios, y la modulación utilizada es de 4 símbolos en cuadratura. Esto significa que cada símbolo transmite 2 bits (log2 4 = 2)<br>
-<br>La capcidad del conversor es: 100x10^9 baudios x 2 bits/baudio = 200 Gbps<br>
+<br>La capcidad del conversor es: 100x10^9 baudios x 2 bits/baudio = **200 Gbps**<br>
 
-<br>**3. Si en el sistema anterior se introduce un conector de fibra con un 20% de pérdidas, responder a las siguientes cuestiones:**
-**a) ¿Se verá afectada la tasa de transmisión máxima?**
-**b) ¿Qué velocidad máxima se tendrá en la salida?**<br>
+<br>**3. Si en el sistema anterior se introduce un conector de fibra con un 20% de pérdidas, responder a las siguientes cuestiones:**<br>
+<br>**a) ¿Se verá afectada la tasa de transmisión máxima?**<br>
+<br>La tasa de transmision máxima depende del ancho de banda y la SNR, si el conector introduce un 20% de perdidas, esto afecta a la potencia de la señal, lo que reduciria la SNR efectiva<br>
+<br>La nueva SNR despues del 20 de perdidas se calcula:<br>
+<br>SNR nueva = SNR x (1 - 0,2) = 31,62 x 0,8 = 25,3<br>
+<br>Sustituyendo en la ecuacion de Shannon: C nuevo = 10^12 x log 2 (1 + 25,3) = **4,72 Tbps**<br>
+<br>**b) ¿Qué velocidad máxima se tendrá en la salida?**<br>
+<br>La limitacion principal sigue siendo el conversor optoeléctrico, que permitía 200 Gbps. Si consideramos la perdida del 20% en la senñal, la velocidad de salida sería:<br>
+<br>200 Gbps x (1 - 0,2) = **160 Gbps**<br>
 
 <br>**4. Indicar el tipo de modulación que se está utilizando y los problemas que plantea en los casos b y c.**
 ![{3B3300A8-C3A2-4445-A00F-EB6A940D2CD1}](https://github.com/user-attachments/assets/b2439270-8324-4818-9908-0866d912048c)<br>
