@@ -1,12 +1,20 @@
 # RD_Cuaderno-de-Ejercicios-1a-Parte
 <br>**1. Para un sistema de comunicaciones con 17 niveles de señal, que funciona en banda base, calcular el máximo ancho de banda si el ruido es despreciable y la tasa de transmisión es de 10 Mbits/s. ¿Qué tipo de medio guiado se podría utilizar para el sistema?**<br>
 <br>Para calcular el ancho de banda máximo aplicamos la formula de Nyquist:<br>
-<br>B=R/2log2M;<br>
+<br>B= R/2xlog2M;<br>
 <br>Donde: R=10Mbits (tasa de transmision) y M=17 (niveles de señal)<br>
 <br>Sustituyendo: B=10x10^6/2x4,09= **1,22MHz**<br>
 <br>Como el ancho de banda es bajo se pueden utilizar varios tipos de medios guiados: **par trenzado, cable coaxial o fibra óptica**<br>
 
 <br>**2. ¿Cuál es la tasa de transmisión máxima en un canal óptico con fibra de ancho de banda de 1 THz y conversores optoeléctricos de 100 Gbaudios, si la relación SNR es de 15 dB y la modulación utilizada en los conversores es de 4 símbolos en cuadratura?**<br>
+<br>Para calcular la tasa de transmision máxima usamos la fórmula de Shannon:<br>
+<br>C= Bxlog2(1+SNR)<br>
+<br>1. Convertimos la SNR de db a un valor de numeros:<br>
+<br>SNR= 10^15/10= 31,62<br>
+<br>2. Sustituimos los valores en la ecuación de Shannon:<br>
+<br>C= 10^12xlog2(1+31,62)= **5,04 Tbps**<br>
+<br>El conversor optoeléctrico tiene una velocidad de 100 Gbaudios, y la modulación utilizada es de 4 símbolos en cuadratura. Esto significa que cada símbolo transmite 2 bits (log2 4 = 2)<br>
+<br>La capcidad del conversor es: 100x10^9 baudios x 2 bits/baudio = 200 Gbps<br>
 
 <br>**3. Si en el sistema anterior se introduce un conector de fibra con un 20% de pérdidas, responder a las siguientes cuestiones:**
 **a) ¿Se verá afectada la tasa de transmisión máxima?**
