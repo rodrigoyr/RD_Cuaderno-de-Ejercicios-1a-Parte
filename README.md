@@ -28,10 +28,16 @@
 
 <br>**4. Indicar el tipo de modulación que se está utilizando y los problemas que plantea en los casos b y c.**
 ![{3B3300A8-C3A2-4445-A00F-EB6A940D2CD1}](https://github.com/user-attachments/assets/b2439270-8324-4818-9908-0866d912048c)<br>
+<br>A: modulación 16-QAM<br>
+<br>B: modulacion 16-QAM, pero con ruido lo que puede generar errores de transmision<br>
+<br>C: modulacion 16-QAM, pero con distorsión y desplazamiento por problemas de sincronizacion<br>
 
 <br>**5. Sabiendo que se transmiten dos señales de forma simultánea y que se aplican dos modulaciones diferentes:**
 **a) Indicar qué dos modulaciones se están aplicando.**
+<br>Modulacion de amplitud y modulacion en frecuencia<br>
 **b) Recuperar la información de ambas señales.**
+<br>Para la de amplitud se usa un detector de envolventes para extraer la variacion en amplitud<br>
+<br>Para la de en frecuencia se usa un demodulador de frecuencia para recuperar los cambios en frecuencia<br>
 ![{55E1271B-F16F-4C5B-BECD-41E8C796F344}](https://github.com/user-attachments/assets/186957c9-3776-4bf8-b608-98ff0fd31d56)<br>
 
 <br>**6. Indicar las longitudes de onda que se transmiten en cada uno de los puntos marcados en el esquema.**
