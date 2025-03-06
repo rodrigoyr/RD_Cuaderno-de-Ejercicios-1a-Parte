@@ -33,12 +33,12 @@
 <br>C: modulacion 16-QAM, pero con distorsión y desplazamiento por problemas de sincronizacion<br>
 
 <br>**5. Sabiendo que se transmiten dos señales de forma simultánea y que se aplican dos modulaciones diferentes:**<br>
+<br>![{55E1271B-F16F-4C5B-BECD-41E8C796F344}](https://github.com/user-attachments/assets/186957c9-3776-4bf8-b608-98ff0fd31d56)<br>
 <br>**a) Indicar qué dos modulaciones se están aplicando.**<br>
 <br>Modulacion de amplitud y modulacion en frecuencia<br>
 <br>**b) Recuperar la información de ambas señales.**<br>
 <br>Para la de amplitud se usa un detector de envolventes para extraer la variacion en amplitud<br>
 <br>Para la de en frecuencia se usa un demodulador de frecuencia para recuperar los cambios en frecuencia<br>
-![{55E1271B-F16F-4C5B-BECD-41E8C796F344}](https://github.com/user-attachments/assets/186957c9-3776-4bf8-b608-98ff0fd31d56)<br>
 
 <br>**6. Indicar las longitudes de onda que se transmiten en cada uno de los puntos marcados en el esquema.**
 ![{145FD890-1568-4D2C-A607-450C82F66462}](https://github.com/user-attachments/assets/b418b29a-18d4-4bb6-852d-29e81fc23de2)<br>
