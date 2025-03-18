@@ -46,6 +46,10 @@
 <br>**7. Se considera una pila de protocolos de 4 capas. La capa 4 envía un bloque de 1 Kbyte.La capa 3 añade cabeceras de 256 bits y cada paquete es de 512 bytes. La capa 2 añade cabeceras de 512 bits y el campo de datos de las tramas son de 128 bytes. La capa 1 añade a cada 30 bytes de datos, 32 bits de comienzo, un byte de parada, y 16 bits de CRC. Dibujar todo el proceso de encapsulamiento del sistema transmisor y calcular la eficiencia del sistema.**<br>
 
 <br>**8. Un sistema satélite divide la información de la capa 3 en bloques de 1904 bits, a los que añade una cabecera de 64 bits. Si cada trama tarda en transmitirse 20 ms y la latencia del satélite es de 85 ms, ¿cuánto tiempo tardará en realizar la transmisión de 5 Mbytes de información?**<br>
+<br>Número de tramas = datos totales/Datos útiles por trama = 40x10^6/1904 = 21.002 tramas<br>
+<br>Tiempo de transmisión total = 21.002 x 20 ms = 420.040 ms = 420 s
+<br>Tiempo de latencia total = 21.002 x 85 ms = 1.785.170 ms = 1.785 s
+<br>**Tiempo total** = Tiempo de transmisión + tiempo de latencia = 420 + 1.785 = 2.205 s = **36,45 minutos**
 
 <br>**9. Calcular el resultado de un paquete de datos “1111011101010101” en un sistema de enlace de datos con las siguientes especificaciones:**
 **• Secuencia de inicio de trama “010101010”.**
