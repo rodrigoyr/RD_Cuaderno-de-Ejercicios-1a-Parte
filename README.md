@@ -129,7 +129,11 @@ Tcolision = 2Tp = 2d / v = 2d / 2 x 10^8 = d / 10^8 s <br>
 **18. Diseñar una red Bluetooth que pueda mantener 15 nodos esclavos activos de manera simultánea.**
 
 **19. Cuál será el rutado entre los siguientes switches si utilizan para su conexión un árbol de expansión con raíz B5.**
-![{6F3072EF-2B63-4A25-A226-EF20052F7212}](https://github.com/user-attachments/assets/438a2042-3f07-4e40-a1d5-5b379d7793e5)<br>
+![{6F3072EF-2B63-4A25-A226-EF20052F7212}](https://github.com/user-attachments/assets/438a2042-3f07-4e40-a1d5-5b379d7793e5)
+<br> B1 → B5 <br>
+<br>B3 → B5 <br>
+<br>B4 → B5 <br>
+<br>B2 → B4 → B5 <br>
 
 **20. Conociendo el rutado del ejercicio anterior, realizar de nuevo el árbol de expansión que se produciría si el switch B3 dejara de estar activo**
 ![{C85AD36B-1E8D-457E-8718-907B14C486F4}](https://github.com/user-attachments/assets/3f55e143-84bb-4b4d-8420-2c6ada551a9c)<br>
