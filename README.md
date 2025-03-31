@@ -117,8 +117,12 @@
 
 **16. Un canal coaxial con FDM con una tasa de transmisión de 500 Mbits/s con una longitud media de trama de 1/𝜇𝜇 = 12584 bits y una tasa de llegada de trama 𝜆𝜆 = 20000 trama/s:**
 **a) ¿Qué retardo tendrá?**
+<br>Tt= L/C = 12584 bits / 500 x 10^6 bits/s = 25.168 µs <br>
 **b) Si lo comparten entre 256 usuarios ¿cuántas portadoras serán necesarias?**
+<br>Portadoras necesaris = N = 256 <br>
 **c) ¿Cuánto tiempo tardará un nodo en detectar una colisión?**
+<v= 2 x 10^8 m/s <br>
+Tcolision = 2Tp = 2d / v = 2d / 2 x 10^8 = d / 10^8 s <br>
 
 **17. Representar la trama “1111111101011010101011” con codificación Manchester y Manchester diferencial. Indicar las unidades y magnitudes en los ejes.**
 
