@@ -111,13 +111,14 @@
 
 **14. ¿Se puede aplicar el protocolo del ejercicio anterior en el siguiente escenario?**
 ![{2942A3A6-926C-47C5-85DD-B2286D80FBD2}](https://github.com/user-attachments/assets/9c9be10c-6fe6-4e56-a81b-99cbf0cfd6dd)<br>
+<br>Sí, el protocolo HDLC (High-Level Data Link Control) se puede aplicar en el escenario mostrado. HDLC es versátil y adecuado para diferentes tipos de redes, incluyendo líneas dedicadas, LAN y WAN. Puede gestionar la comunicación entre múltiples nodos, asegurando la entrega eficiente y confiable de datos, control de flujo, detección y corrección de errores, y encapsulamiento de datos.<br>
 
 **15. Dibujar un diagrama de ventana deslizante con un receptor con buffer para tres tramas y un transmisor que dispone de 5 tramas desordenadas que llegan en el orden 0, 3, 2, 4, 1.**
 
 **16. Un canal coaxial con FDM con una tasa de transmisión de 500 Mbits/s con una longitud media de trama de 1/𝜇𝜇 = 12584 bits y una tasa de llegada de trama 𝜆𝜆 = 20000 trama/s:**
 **a) ¿Qué retardo tendrá?**
 **b) Si lo comparten entre 256 usuarios ¿cuántas portadoras serán necesarias?**
-**c) ¿Cuánto tiempo tardará un nodo en detectar una colisión?**<br>
+**c) ¿Cuánto tiempo tardará un nodo en detectar una colisión?**
 
 **17. Representar la trama “1111111101011010101011” con codificación Manchester y Manchester diferencial. Indicar las unidades y magnitudes en los ejes.**
 
