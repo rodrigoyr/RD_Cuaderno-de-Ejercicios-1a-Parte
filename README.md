@@ -107,6 +107,7 @@
 
 **13. ¿A qué protocolo de la capa de enlace de datos corresponde el siguiente esquema temporal?**
 ![{978403F4-7BE2-48B7-BF96-3AA334517ACF}](https://github.com/user-attachments/assets/be6d4dcf-8fd1-4db7-909c-1b4f2f769b4b)<br>
+<br>HDLC (High-Level Data Link Control)<br>
 
 **14. ¿Se puede aplicar el protocolo del ejercicio anterior en el siguiente escenario?**
 ![{2942A3A6-926C-47C5-85DD-B2286D80FBD2}](https://github.com/user-attachments/assets/9c9be10c-6fe6-4e56-a81b-99cbf0cfd6dd)<br>
