@@ -140,6 +140,8 @@ Eficiencia = (1024 / 2013.6) * 100 ≈ 50.86%
 <br>Sí, el protocolo HDLC (High-Level Data Link Control) se puede aplicar en el escenario mostrado. HDLC es versátil y adecuado para diferentes tipos de redes, incluyendo líneas dedicadas, LAN y WAN. Puede gestionar la comunicación entre múltiples nodos, asegurando la entrega eficiente y confiable de datos, control de flujo, detección y corrección de errores, y encapsulamiento de datos.<br>
 
 **15. Dibujar un diagrama de ventana deslizante con un receptor con buffer para tres tramas y un transmisor que dispone de 5 tramas desordenadas que llegan en el orden 0, 3, 2, 4, 1.**
+![{BE3F34D4-D077-4204-A9F8-0BBB17E21D62}](https://github.com/user-attachments/assets/988d854f-8660-492c-a275-2c06c4258361) <br>
+
 
 **16. Un canal coaxial con FDM con una tasa de transmisión de 500 Mbits/s con una longitud media de trama de 1/𝜇𝜇 = 12584 bits y una tasa de llegada de trama 𝜆𝜆 = 20000 trama/s:**
 **a) ¿Qué retardo tendrá?**
