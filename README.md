@@ -45,8 +45,31 @@ https://github.com/rodrigoyr/RD_Cuaderno-de-Ejercicios-1a-Parte.git
 
 **6. Indicar las longitudes de onda que se transmiten en cada uno de los puntos marcados en el esquema.**
 ![{145FD890-1568-4D2C-A607-450C82F66462}](https://github.com/user-attachments/assets/b418b29a-18d4-4bb6-852d-29e81fc23de2)<br>
+<br>Fibra 1: Transmite la longitud de onda λ₁.<br>
+<br>Fibra 2: Transmite la longitud de onda λ₂.<br>
+<br>Fibra 3: Transmite la longitud de onda λ₃.<br>
+<br>Fibra 4: Transmite la longitud de onda λ₄.<br>
+<br>Estas longitudes de onda se combinan en la fibra compartida de larga distancia, que transmite λ₁ + λ₂ + λ₃ + λ₄.<br>
 
 **7. Se considera una pila de protocolos de 4 capas. La capa 4 envía un bloque de 1 Kbyte.La capa 3 añade cabeceras de 256 bits y cada paquete es de 512 bytes. La capa 2 añade cabeceras de 512 bits y el campo de datos de las tramas son de 128 bytes. La capa 1 añade a cada 30 bytes de datos, 32 bits de comienzo, un byte de parada, y 16 bits de CRC. Dibujar todo el proceso de encapsulamiento del sistema transmisor y calcular la eficiencia del sistema.**
+- Capa 4: Envía un bloque de 1 Kbyte (1024 bytes).<br>
+- Capa 3: Añade cabeceras de 256 bits (32 bytes) y divide los datos en paquetes de 512 bytes.<br>
+  Datos por paquete: 512 bytes - 32 bytes (cabecera) = 480 bytes de datos.<br>
+  Número de paquetes: 1024 bytes / 480 bytes ≈ 2.13 (aproximadamente 3 paquetes).<br>
+- Capa 2: Añade cabeceras de 512 bits (64 bytes) y el campo de datos de las tramas es de 128 bytes.<br>
+  Datos por trama: 128 bytes - 64 bytes (cabecera) = 64 bytes de datos.<br>
+  Número de tramas por paquete: 480 bytes / 64 bytes ≈ 7.5 (aproximadamente 8 tramas por paquete).<br>
+- Capa 1: Añade a cada 30 bytes de datos, 32 bits de comienzo, un byte de parada, y 16 bits de CRC.<br>
+  Datos por segmento: 30 bytes.<br>
+  Número de segmentos por trama: 64 bytes / 30 bytes ≈ 2.13 (aproximadamente 3 segmentos por trama).<br>
+La eficiencia se calcula como la proporción de datos útiles transmitidos respecto al total de datos transmitidos.<br>
+- Capa 4: 1024 bytes de datos útiles.<br>
+- Capa 3: 1024 bytes de datos + 3 * 32 bytes de cabecera = 1120 bytes.<br>
+- Capa 2: 1120 bytes de datos + 8 * 64 bytes de cabecera = 1632 bytes.<br>
+- Capa 1: 1632 bytes de datos + (1632 / 30) * (32 bits + 1 byte + 16 bits) = 1632 bytes + 1632 / 30 * 7 bytes = 1632 bytes + 381.6 bytes ≈ 2013.6 bytes.<br>
+Eficiencia = (Datos útiles / Total de datos transmitidos) * 100 = (1024 / 2013.6) * 100 ≈ **50.86%** <br>
+Eficiencia = (1024 / 2013.6) * 100 ≈ 50.86%
+
 
 **8. Un sistema satélite divide la información de la capa 3 en bloques de 1904 bits, a los que añade una cabecera de 64 bits. Si cada trama tarda en transmitirse 20 ms y la latencia del satélite es de 85 ms, ¿cuánto tiempo tardará en realizar la transmisión de 5 Mbytes de información?**
 <br>Número de tramas = datos totales/Datos útiles por trama = 40x10^6/1904 = 21.002 tramas<br>
